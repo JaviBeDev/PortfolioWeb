@@ -1,0 +1,62 @@
+/* PALETA DE COLORES */
+:root {
+    --white-color: #FEFBF6;
+    --first-color: #5C5470;
+    --second-color: #DBD8E3;
+    --third-color: #2A2438;
+    --fourt-color: #0C2233;
+    --five-color: #065471;
+    --sixth-color: #0A91AB;
+    --seventh-color: #FFC045;
+    --background-color: #352F44;
+
+}
+
+/* FONT FAMILY */
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('ruta-a-la-carpeta-de-la-fuente/PressStart2P-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+/* GENERAL */
+.text_color_title {
+    color: var(--white-color);
+    font-family: 'Press Start 2P';
+    font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+    .text_color_title {
+        font-size: 1.5rem;
+    }
+}
+
+.text_color {
+    color: var(--white-color);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--first-color);
+}
+
+/* NAVBAR */
+.nav_container {
+    margin-top: 10px;
+}
+
+.navbar-toggler {
+    background-color: var(--white-color);
+}
+
+/* BODY CONTAINER */
+.body_container {
+    height: 500px;
+    margin-top: 20px;
+    background-color: var(--background-color);
+}
